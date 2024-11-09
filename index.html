@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ГСД</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form>
+        <h2>Калькулятор для расчета риска ГСД у женщин с ожирением</h2>
+        <label>Глюкоза венозной плазмы натощак</label>
+        <input type="number" step="any" name="a" placeholder="Введите значение глюкозы венозной плазмы (ммоль/л)">
+        <label>Систолическок артериальное давление</label>
+        <input type="number" step="any" name="b" placeholder="Введите значение систолического артериального давления (мм.рт.ст)">
+        <label>Окружность талии</label>
+        <input type="number" name="c" step="any" placeholder="Введите значение окружности живота (см)">
+        <p id="formula"></p>
+        <p id="result"></p>
+        <button type="submit">Посчитать</button>
+        
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
+
